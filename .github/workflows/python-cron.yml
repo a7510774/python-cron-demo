@@ -8,6 +8,7 @@ on:
 jobs:
   run-python:
     runs-on: ubuntu-latest
+    environment: TestEnv # 指定环境，方便那环境变量
 
     steps:
       - name: Checkout code
